@@ -66,6 +66,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8998
 TARGET_KERNEL_CONFIG := paranoid_defconfig
+TARGET_KERNEL_VERSION := 4.4
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := cheeseburger,OnePlus5,oneplus5
